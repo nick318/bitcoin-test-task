@@ -1,7 +1,10 @@
 # bitcoin-test-task
 This is a small test task for getting rates from coinbase/api
 
-You can run program by following command:
+###Build
+mvn clean install
+
+###Run
 java -jar rates-0.0.1-SNAPSHOT.jar 
 
 After that, you can write some currency, e.g. USD
